@@ -1,16 +1,11 @@
-import Button from '@mui/material/Button'
-
+import Board from "./pages/Boards/_id";
 
 function App() {
-
   return (
     <>
-    trugn quan dec
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <Board />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
